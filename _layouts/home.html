@@ -7,11 +7,7 @@ layout: default
     <h1 class="page-heading">{{ page.title }}</h1>
   {%- endif -%}
 
-  <div id="slideshow-home">
-        {{ range readDir "images/slideshow/" }}
-        <img src="../images/slideshow/{{ .name }}">
-        {{ end }}
-  </div>
+  <iframe src="slideshow.html" title="slideshow"></iframe>
   
   {%- if site.posts.size > 0 -%}
     <h2 class="post-list-heading">{{ page.list_title | default: "Posts" }}</h2>
