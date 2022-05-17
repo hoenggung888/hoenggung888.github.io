@@ -9,7 +9,7 @@ layout: default
 
   <div id="slideshow-home">
         {{ range readDir "images/slideshow/" }}
-        <img src="slideshow/{%- .Name -%}">
+        <img src="../images/slideshow/{{ .name }}">
         {{ end }}
   </div>
   
