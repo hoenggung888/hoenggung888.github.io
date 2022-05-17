@@ -5,8 +5,6 @@
 layout: home
 ---
 
-## Welcome to hoenggung888's website!
-
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed metus tortor, porttitor ac enim et, rutrum feugiat libero. Nullam semper, erat cursus pulvinar consectetur, velit nulla iaculis turpis, porttitor venenatis justo erat vitae diam. Nullam egestas pellentesque orci vitae consequat. Ut eget ligula non nisl molestie mollis vitae et libero. Pellentesque tempus gravida lacus nec dictum. In et consequat massa, eu egestas nisl. Morbi placerat enim erat, nec iaculis leo commodo sed. Aliquam erat volutpat. Integer eu commodo urna. Pellentesque ex arcu, lobortis sit amet eros id, suscipit sollicitudin mauris. Nunc id felis turpis. Nullam blandit elit ante, eu feugiat nisi viverra ut. Aliquam commodo pretium erat, sit amet lobortis urna sollicitudin ac.
 
 Sed pretium mollis magna, vel egestas dui viverra id. Morbi gravida vitae nisl eget dignissim. Curabitur egestas justo at odio volutpat, et rhoncus mi fermentum. Suspendisse suscipit orci posuere ornare congue. Maecenas quis urna blandit sem aliquam ullamcorper eu et velit. Nullam aliquet risus ipsum, sed ultricies leo pharetra sed. Nam nisi ex, bibendum ut vulputate nec, dapibus id quam. Pellentesque varius placerat ex sit amet aliquet. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Proin eu euismod mi. Nulla condimentum hendrerit consequat. Integer maximus sem metus, sit amet egestas lectus tempus id. Maecenas in turpis porttitor, venenatis purus accumsan, eleifend ligula. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nam facilisis vulputate libero, sit amet gravida risus interdum eget.
