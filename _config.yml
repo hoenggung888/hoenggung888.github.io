@@ -21,7 +21,7 @@
 title: hoenggung888
 email: keichanics1@outlook.com
 description: >- # this means to ignore newlines until "baseurl:"
-"The official work in progress site of hoenggung888"
+  The official work in progress site of hoenggung888.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  hoenggung888
