@@ -19,4 +19,4 @@ Nam efficitur vel purus sed consectetur. Nulla dignissim efficitur massa, vitae 
 
 Follow my Instagram!
 
-[![Instagram (hoenggung888)](icon-instagram.svg)](https://www.instagram.com/invites/contact/?i=nc84sueatifif8&utm_content=m7j56aa)
+<a href="https://instagram.com/{{ site.instagram_username| cgi_escape | escape }}"><svg class="svg-icon"><use xlink:href="{{ '/assets/minima-social-icons.svg#instagram' | relative_url }}"></use></svg> <span class="username">{{ site.instagram_username| escape }}</span></a></li>{%- endif -%}
