@@ -131,8 +131,8 @@
 </div>
 
 <script>
-let slideIndex = 1;
-showSlides(slideIndex);
+let slideIndex = 0;
+showSlides();
 
 // Next/previous controls
 function plusSlides(n) {
@@ -143,7 +143,7 @@ function plusSlides(n) {
 function currentSlide(n) {
   showSlides(slideIndex = n);
 }
-
+  
 function showSlides(n) {
   let i;
   let slides = document.getElementsByClassName("mySlides");
@@ -159,10 +159,7 @@ function showSlides(n) {
   slides[slideIndex-1].style.display = "block";
   dots[slideIndex-1].className += " active";
 }
-  
-let slideIndex = 0;
-showSlides();
-
+ 
 function showSlides() {
   let i;
   let slides = document.getElementsByClassName("mySlides");
