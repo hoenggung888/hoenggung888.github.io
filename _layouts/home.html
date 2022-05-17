@@ -8,8 +8,8 @@ layout: default
   {%- endif -%}
 
   <div id="slideshow-home">
-        {{ range readDir "static/slideshow/" }}
-        <img src="../images/slideshow/{{ .Name }}">
+        {{ range readDir "images/slideshow/" }}
+        <img src="slideshow/{{ .Name }}">
         {{ end }}
   </div>
   
