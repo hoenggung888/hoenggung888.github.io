@@ -7,10 +7,8 @@ layout: default
     <h1 class="page-heading">{{ page.title }}</h1>
   {%- endif -%}
 
-  {%- if site.images.slideshow.size > 0 -%}
-    {%- include slideshow.html -%}
-  {%- endif -%}
-    <br>
+  {%- include slideshow.html -%}
+  <br>
   
   {%- if site.posts.size > 0 -%}
     <h2 class="post-list-heading">{{ page.list_title | default: "Posts" }}</h2>
