@@ -28,10 +28,12 @@ body {
 }
 
 @include media-query($on-laptop) {
-  background-image: $background-picture;
-  background-repeat: no-repeat;
-  background-attachment: fixed;  
-  background-size: cover;
+  body{
+    background-image: $background-picture;
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size: cover;
+  }
 }
 
 @include media-query($on-palm) {
