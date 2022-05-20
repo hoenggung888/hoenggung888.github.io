@@ -28,7 +28,7 @@ body {
   flex-direction: column;
 }
 
-@include media-query($on-laptop) {
+@include media-query($on-palm) {
   body {
     background-image: $background-picture;
     background-repeat: no-repeat;
