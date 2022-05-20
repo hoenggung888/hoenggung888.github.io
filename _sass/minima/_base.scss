@@ -16,7 +16,6 @@ dl, dd, ol, ul, figure {
 body {
   font: $base-font-weight #{$base-font-size}/#{$base-line-height} $base-font-family;
   color: $text-color;
-  background-color: $background-color;
   background-image: $background-picture;
   background-repeat: no-repeat;
   background-attachment: fixed;  
@@ -183,6 +182,7 @@ pre {
   max-width:         calc(#{$content-width} - (#{$spacing-unit} * 2));
   margin-right: auto;
   margin-left: auto;
+  background-color: $background-color-light;
   padding-right: $spacing-unit;
   padding-left: $spacing-unit;
   @extend %clearfix;
