@@ -16,10 +16,6 @@ dl, dd, ol, ul, figure {
 body {
   font: $base-font-weight #{$base-font-size}/#{$base-line-height} $base-font-family;
   color: $text-color;
-  background-image: $background-picture;
-  background-repeat: no-repeat;
-  background-attachment: fixed;  
-  background-size: cover;
   -webkit-text-size-adjust: 100%;
   -webkit-font-feature-settings: "kern" 1;
      -moz-font-feature-settings: "kern" 1;
@@ -32,6 +28,13 @@ body {
 }
 
 @include media-query($on-laptop) {
+  background-image: $background-picture;
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: cover;
+}
+
+@include media-query($on-palm) {
   body {
     background-color: $background-color;
   }
