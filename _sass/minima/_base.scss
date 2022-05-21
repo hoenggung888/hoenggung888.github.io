@@ -31,7 +31,14 @@ body {
   flex-direction: column;
 }
 
-@include media-query($on-laptop) {}
+@include media-query($on-laptop) {  
+  body {
+    background-image: $background-picture;
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size: cover;
+  }
+}
 
 @include media-query($on-palm) {
   body {
@@ -189,6 +196,7 @@ pre {
   margin-right: auto;
   margin-left: auto;
   background-color: $background-color;
+  border: 1px solid $white-color;
   padding-right: $spacing-unit;
   padding-left: $spacing-unit;
   @extend %clearfix;
