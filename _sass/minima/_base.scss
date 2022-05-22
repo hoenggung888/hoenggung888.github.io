@@ -31,22 +31,10 @@ body {
   min-height: 100vh;
   flex-direction: column;
   @extend %clearfix;
-
-  @include media-query($on-laptop) {  
-    body {
-      background-color: $white-color;
-      background-image: $background-picture;
-      background-repeat: no-repeat;
-      background-attachment: fixed;  
-      background-size: cover;
-    }
-  }
   
   @include media-query($on-palm) {
-    body {
-      background-color: $background-color;
-      background-image: none !important;
-    }
+    background-color: $background-color;
+    background-image: none !important;
   }
 }
 
