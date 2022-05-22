@@ -29,20 +29,20 @@ body {
   display: flex;
   min-height: 100vh;
   flex-direction: column;
-}
 
-@include media-query($on-laptop) {  
-  body {
-    background-image: $background-picture;
-    background-repeat: no-repeat;
-    background-attachment: fixed;  
-    background-size: cover;
+  @include media-query($on-laptop) {  
+    body {
+      background-image: $background-picture;
+      background-repeat: no-repeat;
+      background-attachment: fixed;  
+      background-size: cover;
+    }
   }
-}
-
-@include media-query($on-palm) {
-  body {
-    background-color: $background-color !important;
+  
+  @include media-query($on-palm) {
+    body {
+      background-color: $background-color;
+    }
   }
 }
 
