@@ -42,7 +42,7 @@ body {
   @include media-query($on-palm) {
     body {
       background-color: $background-color;
-      background-image: none;
+      background-image: none !important;
     }
   }
 }
