@@ -16,6 +16,7 @@ dl, dd, ol, ul, figure {
 body {
   font: $base-font-weight #{$base-font-size}/#{$base-line-height} $base-font-family;
   color: $text-color;
+  background-color: $white-color;
   background-image: $background-picture;
   background-repeat: no-repeat;
   background-attachment: fixed;  
@@ -32,6 +33,7 @@ body {
 
   @include media-query($on-laptop) {  
     body {
+      background-color: $white-color;
       background-image: $background-picture;
       background-repeat: no-repeat;
       background-attachment: fixed;  
