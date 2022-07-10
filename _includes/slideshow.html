@@ -7,6 +7,9 @@
     {% if image.path contains 'images/slideshow' %}
       <div class="mySlides fade">
         <a href="{{ image.path }}">
+          <div class="slideinfo"> 
+            <p>{{ image.modified_time | remove: "-0400" }}</p>
+          </div>
           <img src=" {{ image.path }} " style="width:100%">
         </a>
       </div>
